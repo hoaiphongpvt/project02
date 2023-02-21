@@ -470,3 +470,83 @@ a {
     line-height: 40px;
     color: #FFFFFF;
 }
+
+/* Features */
+.features {
+    padding: 135px 0;
+}
+
+.features .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .images {
+    display: flex;
+    gap: 30px;
+}
+
+.features .images .img {
+    width: 270px;
+    height: 404px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.features .images .img.lower {
+    margin-top: 34px;
+}
+
+.features .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 41%;
+}
+
+.features .content .heading {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.features .content .desc {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 28px;
+    color: #5F5B53;
+}
+
+.features .content .btn {
+    margin-top: 32px;
+    min-width: 137px;
+    background: #FFB900;
+    border-radius: 26px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.feature-2nd {
+    margin-top: 70px;
+}
+
+.feature-2nd .body {
+    flex-direction: row-reverse;
+}
+
+.feature-2nd .content {
+    width: 49%;
+}
+
+.feature-2nd .images .img {
+    width: 470px;
+    height: 440px;
+}
