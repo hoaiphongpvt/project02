@@ -550,3 +550,129 @@ a {
     width: 470px;
     height: 440px;
 }
+
+/* Blog */
+.blogs {
+    margin-top: 135px;
+    padding: 96px 0;
+    background: #FFFCF4;
+}
+
+.blog-top {
+    text-align: center;
+}
+
+.blog-top .heading {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    color: #130606;
+}
+
+.blog-top .desc {
+    margin: 16px auto 0;
+    width: 448px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #696262;
+}
+
+.blog-list {
+    margin-top: 55px;
+    display: flex;
+    gap: 30px;  
+}
+
+.blog-list .blog-item {
+    width: calc(33.33% - 20px);
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.blog-list .blog-item:hover {
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+}
+
+.blog-list .blog-item .info {
+    padding: 20px 20px 28px;
+}
+
+.blog-list .blog-item .thumb {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.blog-list .blog-item .date {
+    display: inline-flex;
+    position: relative;
+    padding-bottom: 12px;
+    align-items: center;
+    font-size: 1.4rem;
+    line-height: 26px;
+    color: #5F5B53;
+}
+
+.blog-list .blog-item .date::before {
+    content: "";
+    display: inline-block;
+    margin-right: 4px;
+    width: 6px;
+    height: 6px;
+    background: #FFB900;
+    border-radius: 50%;
+}
+
+.blog-list .blog-item .date::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 160px;
+    height: 2px;
+    background: #E2DFDA;
+    border-radius: 0.5px;
+}
+
+.blog-list .blog-item .title a {
+    display: inline-block;
+    margin: 12px 0;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 28px;
+    color: #171100;
+}
+
+.blog-list .blog-item .btn {
+    font-size: 1.4rem;
+}
+
+.blog-list .blog-item .btn:hover {
+    background: #FFB900;
+}
+
+.blogs .dots {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    margin-top: 38px;
+}
+
+.blogs .dots .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #5F5B53;
+    cursor: pointer;
+}
+
+.blogs .dots .dot.active {
+    cursor: default;
+    background: #FFB900;
+}
